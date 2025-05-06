@@ -96,7 +96,7 @@ Pull requests, feature suggestions, memes, and bug fixes welcome. Fork the repo 
 
 ## 🦾 CONTACT
 
-For questions, hit me up on [GitHub](https://github.com/joysheel)
+For questions, hit me up on [GitHub](https://github.com/joysheelAI)
 
 ---
 
