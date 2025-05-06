@@ -1,6 +1,6 @@
 # Dungeon-of-Dread
 
-# 🧙‍♂️ DUNGEON OF DREAD 🔥
+# 💙 DUNGEON OF DREAD 🔥
 
 > A Python terminal-based adventure game where you face the ultimate enemy of every coder: **Bugzilla** – a monstrous creature born from cursed legacy code. Can you survive with only your wit, your keyboard, and a few potions of Debug?
 
@@ -12,10 +12,10 @@ You, brave dev, enter the **Dungeon of Dread** – a haunted place filled with b
 
 Make decisions in real-time:
 
-- `fight` – swing your mighty keyboard and attack Bugzilla!
-- `potion` – drink a Debug Potion to heal your soul (and your HP)
-- `taunt` – roast Bugzilla with savage one-liners
-- `run` – if you're feelin’ like a certified coward
+* `fight` – swing your mighty keyboard and attack Bugzilla!
+* `potion` – drink a Debug Potion to heal your soul (and your HP)
+* `taunt` – roast Bugzilla with savage one-liners
+* `run` – if you're feelin’ like a certified coward
 
 💀 Each action affects your health or Bugzilla’s. Defeat the beast or run before your terminal turns into a grave.
 
@@ -24,49 +24,96 @@ Make decisions in real-time:
 ## 🎮 HOW TO RUN
 
 1. **Clone the repo**
+
    ```bash
    git clone https://github.com/joysheel/dungeon-of-dread.git
    cd dungeon-of-dread
+   ```
 
+2. **Install dependencies**
 
+   ```bash
+   pip install pygame pyfiglet colorama rich
+   ```
 
+3. **Run the game**
 
-🧾 DEPENDENCIES
-pygame – for playing sound effects
+   ```bash
+   python main.py
+   ```
 
-pyfiglet – for epic ASCII art titles
+---
 
-rich – for stylish loading bars and terminal bling
+## 📁 FILE STRUCTURE
 
-colorama – for colorful terminal messages
+```
+dungeon-of-dread/
+├── main.py
+└── sounds/
+    ├── intro.mp3
+    ├── roar.mp3
+    ├── win.mp3
+    └── lose.mp3
+```
 
-🔊 SOUND FILES
-All sound effects live in the sounds/ folder:
+---
 
-intro.mp3 – dramatic intro music
+## 📊 FEATURES
 
-roar.mp3 – Bugzilla's screech of doom
+* Rich terminal animations and progress bars (thanks `rich`!)
+* MP3 sound effects using `pygame`
+* Fun text UI using `pyfiglet` and `colorama`
+* Witty dialogue and narration
 
-win.mp3 – victory fanfare 🎉
+---
 
-lose.mp3 – the sad sound of failure
+## 📓 STORYLINE
 
-Feel free to replace the .mp3 files with your own chaotic soundpack.
+You are a fearless dev blessed by the Python gods. Inside the Dungeon of Dread, lies Bugzilla, the beast responsible for every error log you’ve ever seen. Fight it with code, restore your health with Debug Potions, or just insult it until it cries.
 
-✨ FEATURES
-Terminal-based RPG with attitude
+The choice is yours.
 
-Sound effects for true immersion
+---
 
-Epic ASCII art (Star Wars font FTW)
+## 🧲 MADE BY
 
-Humor, sass, and pure Python magic
+**Joysheel**
+May your syntax always be clean, and your bugs always squashed.
 
-Play as much as your soul can take
+---
 
-🤝 CONTRIBUTING
-Wanna level this up with boss fights, loot drops, or a multiplayer dungeon crawler in Rust?
-Go wild. PRs welcome. Just don’t make Bugzilla harder 😭
+## 📅 LICENSE
 
-🧙‍♂️ Created By
-Joysheel
+This project is open source and free to use under the MIT License.
+
+---
+
+## 🦾 CONTRIBUTING
+
+Pull requests, feature suggestions, memes, and bug fixes welcome. Fork the repo and let’s squash bugs together.
+
+---
+
+## 🦾 CONTACT
+
+For questions, hit me up on [GitHub](https://github.com/joysheel)
+
+---
+
+## 📜 DEPENDENCIES
+
+Make sure to install these for the game to work smoothly:
+
+* `pygame` – handles all the sounds (music & effects)
+* `pyfiglet` – renders the cool ASCII title text
+* `colorama` – gives colored terminal output
+* `rich` – progress bars, fancy formatting
+
+Install everything at once:
+
+```bash
+pip install pygame pyfiglet colorama rich
+```
+
+You're now ready to code-fight for your life.
+**Run it. Face Bugzilla. Become legend.**
